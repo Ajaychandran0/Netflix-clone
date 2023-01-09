@@ -1,0 +1,9 @@
+import { API_KEY } from "./Constants/constants"
+
+export const originals = `discover/tv?api_key=${API_KEY}&with_networks=213`
+export const action = `discover/movie?api_key=${API_KEY}&with_genres=28`
+export const drama = `discover/movie?api_key=${API_KEY}&with_genres=18`
+export const animated = `discover/movie?api_key=${API_KEY}&with_genres=16`
+export const comedy = `discover/movie?api_key=${API_KEY}&with_genres=35`
+export const horror = `discover/movie?api_key=${API_KEY}&with_genres=27`
+
